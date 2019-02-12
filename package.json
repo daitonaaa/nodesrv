@@ -1,0 +1,19 @@
+{
+  "name": "nodejsserver",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "gm": "^1.23.1",
+    "jimp": "^0.6.0",
+    "node": "^8.15.0",
+    "node-inspect": "^1.11.5",
+    "python": "0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "supervisor node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
