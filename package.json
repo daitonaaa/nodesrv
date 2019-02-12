@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "pm2 start server.js"
+    "start": "supervisor node server.js",
+    "run": "pm2 start server.js"
   },
   "author": "",
   "license": "ISC",
